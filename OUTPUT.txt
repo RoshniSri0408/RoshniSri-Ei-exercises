@@ -1,0 +1,135 @@
+OUTPUT
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 1
+Enter task description: Wakeup
+Enter start time (HH:MM): 06:00
+Enter end time (HH:MM): 06:00
+Enter priority (Low, Medium, High): High
+Jul 27, 2024 10:22:19 PM astronaut.ScheduleManager addTask
+Task added successfully. No conflicts.
+INFO: Task added: 06:00 - 06:00: Wakeup [High]
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 1
+Enter task description: Freshup
+Enter start time (HH:MM): 06:15
+Enter end time (HH:MM): 06:30
+Enter priority (Low, Medium, High): Medium
+Jul 27, 2024 10:27:36 PM astronaut.ScheduleManager addTask
+INFO: Task added: 06:15 - 06:30: Freshup [Medium]
+Task added successfully. No conflicts.
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 1
+Enter task description: Breakfast
+Enter start time (HH:MM): 07:00
+Enter end time (HH:MM): 07:30
+Enter priority (Low, Medium, High): High
+Jul 27, 2024 10:28:47 PM astronaut.ScheduleManager addTask
+INFO: Task added: 07:00 - 07:30: Breakfast [High]
+Task added successfully. No conflicts.
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 1
+Enter task description: Exercise
+Enter start time (HH:MM): 06:30
+Enter end time (HH:MM): 06:45
+Enter priority (Low, Medium, High): High
+Jul 27, 2024 10:30:24 PM astronaut.ScheduleManager addTask
+WARNING: Task conflict: 06:30 - 06:45: Exercise [High]
+Error: Task conflicts with existing tasks.
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 1
+Enter task description: Yoga
+Enter start time (HH:MM): 07:00
+Enter end time (HH:MM): 07:30
+Enter priority (Low, Medium, High): Low
+Jul 27, 2024 10:33:16 PM astronaut.ScheduleManager addTask
+WARNING: Task conflict: 07:00 - 07:30: Yoga [Low]
+Error: Task conflicts with existing tasks.
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 3
+06:00 - 06:00: Wakeup [High]
+06:15 - 06:30: Freshup [Medium]
+07:00 - 07:30: Breakfast [High]
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 1
+Enter task description: Exercise
+Enter start time (HH:MM): 06:31
+Enter end time (HH:MM): 06:45
+Enter priority (Low, Medium, High): medium
+Jul 27, 2024 10:35:16 PM astronaut.ScheduleManager addTask
+INFO: Task added: 06:31 - 06:45: Exercise [medium]
+Task added successfully. No conflicts.
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 2
+Enter task description to remove: Exercise
+Jul 27, 2024 10:35:43 PM astronaut.ScheduleManager removeTask
+Task removed successfully.
+INFO: Task removed: 06:31 - 06:45: Exercise [medium]
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 3
+06:00 - 06:00: Wakeup [High]
+06:15 - 06:30: Freshup [Medium]
+07:00 - 07:30: Breakfast [High]
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 4
+Enter priority to filter (Low, Medium, High): High
+06:00 - 06:00: Wakeup [High]
+07:00 - 07:30: Breakfast [High]
+
+1. Add Task
+2. Remove Task
+3. View Tasks
+4. View Tasks by Priority
+5. Exit
+Enter choice: 5
+Exiting...
+BUILD SUCCESSFUL (total time: 15 minutes 21 seconds)
